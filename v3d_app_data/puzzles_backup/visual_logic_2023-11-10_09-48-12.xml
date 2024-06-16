@@ -1,0 +1,63 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20.00000000000034" scrolly="9.000000000000114" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="woeyEB7XL4]ujnjJJ^60" x="-10" y="-10">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="CommonTab" active="true" scrollx="293.43375962208836" scrolly="713.9601336093435" scale="0.7462153966366275">
+    <block xmlns="https://developers.google.com/blockly/xml" type="show" id="xZXySJKrE?2~4/Lx8}-7" x="-310" y="-650">
+      <value name="VALUE">
+        <shadow type="objectList" id=";WQ%#.Y8R2BfP9dM5JB_">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="groupList" id="I$#}a*0HzQmrt{tbX#Ys">
+          <field name="FIELDNAME">farmer_group</field>
+        </block>
+      </value>
+      <next>
+        <block type="hide" id="ew-{UJTT*yEkJ?Kn#jc:">
+          <value name="VALUE">
+            <shadow type="objectList" id="e:dl{Xli]0a!wqemac1u">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="VX7.?Y#]}EODAAp_B@Ea">
+              <field name="FIELDNAME">indicator_group</field>
+            </block>
+          </value>
+          <next>
+            <block type="playAnimationAdv" id="KWtL^IWQ0e25ejZ2,(mh">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopRepeat</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="AbX)0$LA/!1S%Vdi}4.,">
+                  <field name="FIELDNAME">farmer_armature</field>
+                </shadow>
+              </value>
+              <value name="FROM">
+                <shadow type="math_number" id="9X9.X-[mu{Y{(R(cFtm?">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+              <value name="TO">
+                <shadow type="math_number" id="XE3()CL+^KJE08%*X@M1">
+                  <field name="NUM">100</field>
+                </shadow>
+              </value>
+              <value name="SPEED">
+                <shadow type="math_number" id=":e|E)M[6Ytj{(MJ%RZ+N">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="526.8" viewport-y="361" viewport-w="383.188" viewport-h="464.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
